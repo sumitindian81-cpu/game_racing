@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: radial-gradient(#111, #000);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+canvas {
+    display: block;
+    margin: 15px auto;
+    border: 3px solid #fff;
+    background: #666;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ui {
+    position: relative;
+}
+
+.hud {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: #0f0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
